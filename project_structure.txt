@@ -1,0 +1,42 @@
+SavvyThreads/
+│
+├── backend/                              # FastAPI backend
+│   ├── api/
+│   │   ├── main.py                       # FastAPI app with routers
+│   │   ├── models.py                     # Pydantic models for requests/responses
+│   │   └── routes/
+│   │       ├── chat.py                   # Chat endpoint
+│   │       ├── health.py                 # Health check endpoint
+│   │       ├── analytics.py              # Analytics endpoint
+│   │       └── ingest.py                 # Data ingestion endpoint
+│   ├── core/
+│   │   ├── orchestrator.py               # LangGraph orchestrator (empty)
+│   │   ├── state.py                      # State management (empty)
+│   │   └── agents/                       # Agent definitions (empty)
+│   ├── tools/                            # Tool implementations
+│   │   └── ingest_tool.py                # Placeholder ingest tool
+│   └── pyproject.toml                    # Python dependencies
+│
+├── scripts/
+│   └── log_config.py                     # Logging configuration
+│
+├── logs/                                 # Application logs
+│   └── api/                              # API logs
+│
+├── docs/                                 # Documentation
+│   ├── Architecture.png                  # System architecture diagram
+│   └── SavvyThreads - Social Knowledge Graph.pdf
+│
+├── notebooks/                            # Jupyter notebooks (empty)
+├── prompt_engineering/                   # Prompt engineering experiments (empty)
+├── graphdb/                              # Graph database schemas and queries (empty)
+├── frontend/                             # Frontend application (empty)
+├── docker-compose.yml                    # Docker configuration (empty)
+├── README.md                             # Project overview
+└── project_structure.txt                 # This file
+
+# Empty directories that exist but are not yet implemented:
+# - notebooks/ (for data analysis and experiments)
+# - prompt_engineering/ (for LLM prompt optimization)
+# - graphdb/ (for Neo4j schemas and queries)
+# - frontend/ (for React/UI components)
