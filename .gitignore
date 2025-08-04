@@ -52,4 +52,7 @@ htmlcov/
 
 # Node.js (for future frontend)
 node_modules/
-npm-debug.log* 
+npm-debug.log*
+
+# Git keep files
+.gitkeep 
